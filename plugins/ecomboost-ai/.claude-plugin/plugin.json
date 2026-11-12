@@ -1,0 +1,10 @@
+{
+  "name": "ecomboost-ai",
+  "version": "1.0.0",
+  "description": "Find revenue leaks, review sales, and check whether store changes worked, using your Shopify data in EcomBoost AI.",
+  "author": { "name": "EcomBoost AI", "email": "support@ecomboostai.com", "url": "https://www.ecomboostai.com" },
+  "homepage": "https://www.ecomboostai.com/claude-connector",
+  "privacyPolicyUrl": "https://www.ecomboostai.com/privacy",
+  "license": "MIT",
+  "keywords": ["shopify", "ecommerce", "revenue", "seo", "store-audit"]
+}
