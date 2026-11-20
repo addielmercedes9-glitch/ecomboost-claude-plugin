@@ -34,6 +34,12 @@ Call `get_action_outcomes`. Give total revenue recovered and the number of prove
 **Black Friday or another peak**
 Call `search_products` with `top_sellers`, then `low_stock`; `get_ad_performance` (days: 30); and `get_store_opportunities`. Return a checklist in order of urgency: restock, ads to scale or pause, then fixes.
 
+**What did EcomBoost change? / Is it worth it?**
+Use the `store-wins-report` skill.
+
+**Can AI assistants recommend my products?**
+Call `get_ai_readiness_score`, then `search_products` with `missing_description`. Give the score, the weakest parts, and the three fixes that raise it most. It measures readiness; never promise a recommendation.
+
 **Competitors**
 Call `get_competitor_analyses`, adding the competitor's name when the owner gives one.
 
@@ -41,6 +47,7 @@ Call `get_competitor_analyses`, adding the competitor's name when the owner give
 
 - Report numbers exactly as the tools return them.
 - Present estimated impact as an estimate, never as guaranteed revenue.
-- These tools only read data. Never say or imply that something was fixed; point to the `fixItAt` link.
+- Reading tools never change the store. A change happens only through a `preview_*` tool shown to the owner and an `apply_change` they explicitly approved; otherwise never say or imply that something was fixed, and point to the `fixItAt` link.
+- If a preview returns `planAllowsApply: false`, say once that publishing needs a paid plan and give its `upgradeAt` link.
 - If the result includes `lockedOpportunities`, say how many more were found and their combined estimated impact, and give the `upgradeAt` link. Don't guess what they are.
 - Don't estimate data a tool did not return. Say what is missing.
