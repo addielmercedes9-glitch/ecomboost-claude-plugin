@@ -1,12 +1,16 @@
 {
   "name": "ecomboost-ai",
   "description": "Shopify store reviews powered by EcomBoost AI",
-  "owner": { "name": "EcomBoost AI", "email": "support@ecomboostai.com", "url": "https://www.ecomboostai.com" },
+  "owner": {
+    "name": "EcomBoost AI",
+    "email": "support@ecomboostai.com",
+    "url": "https://www.ecomboostai.com"
+  },
   "plugins": [
     {
       "name": "ecomboost-ai",
       "source": "./plugins/ecomboost-ai",
-      "description": "Find revenue leaks, review sales, and check whether store changes worked, using your Shopify data in EcomBoost AI."
+      "description": "Grow your Shopify store with your real EcomBoost AI data: revenue leaks, landing pages, sales content, product imports, AI-shopping readiness, and proven results."
     }
   ]
 }

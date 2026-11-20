@@ -1,8 +1,8 @@
 # EcomBoost AI for Claude
 
-Ask Claude how your Shopify store is doing, using your real data: revenue leaks, sales, stock, ads, and whether past changes worked.
+Ask Claude how your Shopify store is doing and have it build what you need to sell more, using your real data: revenue leaks, sales, stock, ads, landing pages, sales content, product imports, AI-shopping readiness, and whether past changes worked.
 
-The plugin is free and read-only. It can't change your products, prices, ads, or settings.
+The plugin is free. It never changes your store on its own: every change is shown to you as a before/after first and is applied only after you say yes (publishing changes needs a paid plan).
 
 ## Install
 
@@ -28,6 +28,11 @@ Using claude.ai? [Add the connector](https://www.ecomboostai.com/claude-connecto
 - "What should I fix first?"
 - "Did my last changes work?"
 - "Get my store ready for Black Friday."
+- "Build a landing page for my best seller."
+- "Write ads, emails and posts to sell my slow stock."
+- "Turn this supplier spreadsheet into a Shopify import file."
+- "Can ChatGPT recommend my products?"
+- "What has EcomBoost changed in my store, and did it work?"
 
 ## Plans
 
